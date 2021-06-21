@@ -1,0 +1,191 @@
+*{
+  overflow-wrap: break-word!important;
+}
+
+
+
+.event-card {
+  position: relative;
+  margin-top: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background: #fff;
+  border-radius: 2px;
+}
+
+.event-card .event-date {
+  background: #cc555f;  /* fallback for old browsers */
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-card .event-date .event-day {
+  font-size: 4rem;
+  color: #fff;
+  display: block;
+  line-height: 1;
+  text-align: center;
+  font-weight: lighter;
+}
+.event-card .event-date .event-day .month {
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  letter-spacing: 15px;
+  font-weight: bold;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-card .event-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.event-card .event-infos {
+  padding: 0 15px;
+}
+
+.event-card .event-infos .event-title {
+  font-size: 2.2rem;
+  margin: 0;
+}
+.event-card .event-infos .event-place {
+  font-size: 1rem;
+  
+}
+
+.event-card .event-infos .event-price {
+  font-size: 1.125rem;
+}
+
+.event-card .event-links {
+  height: 100%;
+}
+
+.event-card .event-links a {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #a8a8a8;
+  transition: 0.2s ease-in-out;
+  height: 100%;
+}
+
+.event-card .event-links a:hover {
+  color: #292929;
+  background-color: #b9b9b9;
+}
+
+.general-infos{
+  background-color: #FBF8FF;
+  padding:15px;
+}
+
+.general-infos hr{
+  border: 0;
+  clear:both;
+  display:block;
+  width:100%;               
+  background-color:rgb(211, 211, 211);
+  height: 1px;
+}
+
+.custom-bg{
+  background: #f7f7f7!important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7f7f7, #ffffff)!important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7f7f7, #ffffff)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ad-banner + .ad-banner{
+  margin-top:15px;
+}
+
+.rounded-icon{
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  width:35px;
+  height:35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.rounded-icon.primary-icon{
+  color: #cc555f;
+}
+
+.cashprize-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cashprize-container span{
+  margin-left:1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.ticket-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ticket-container span{
+  margin-left:1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.minimal-infos-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top:1rem;
+}
+
+.minimal-infos-container span{
+  margin-left:1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.profile-event-infos{
+  padding:10px;
+}
+
+.rounded-icon.big-icon{
+  font-size: 6rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-body .info{
+  margin:2rem 0;
+
+}
+
+.card-body .icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

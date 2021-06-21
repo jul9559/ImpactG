@@ -1,0 +1,275 @@
+@charset "utf-8";
+body {
+ font-family:open sans,
+ Arial,
+ Helvetica,
+ sans-serif;
+ background:url(../images/noise-bg.jpg) repeat #f5f5f5
+}
+.jumbotron {
+ position:relative;
+ color:#fff;
+ text-align:center;
+ text-shadow:0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
+ background:url(../images/subtle-bg.jpg) no-repeat ;
+ background-size:100% 100%;
+ overflow:hidden;
+ padding-bottom:50px;
+}
+#layout2 .jumbotron,
+#layout2 .jumbotron {
+ min-height:548px;
+ height:auto
+}
+.masthead {
+ margin-bottom:0;
+ color:#fff
+}
+.masthead h1 {
+ font-size:50px;
+ line-height:1;
+ letter-spacing:-2px
+}
+.masthead p {
+ font-size:40px;
+ font-weight:200;
+ line-height:1.25
+}
+.jumbotron .container {
+ padding-top:50px
+}
+.mockup {
+ background:url(../images/iphone-mockup.png) top center no-repeat;
+ height:450px;
+ margin-top:30px;
+ -webkit-transition:all .5s ease;
+ -moz-transition:all .5s ease;
+ -o-transition:all .5s ease;
+ transition:all .5s ease
+}
+.mockup:hover {
+ margin-top:-20px
+}
+.mockup.video {
+ background:url(../images/iphone-mockup-video.png) top center no-repeat
+}
+.shadow {
+ position:absolute;
+ bottom:0;
+ left:50%;
+ margin-left:-240px
+}
+.subscribe {
+ text-align:center;
+ padding-top:50px
+}
+.subscribe h2 {
+ font-size:38px;
+ font-weight:600;
+ color:#0e0d0d;
+ line-height:1;
+ letter-spacing:-2px
+}
+.subscribe h4 {
+ font-size:24px;
+ font-weight:400;
+ color:#0e0d0d;
+ line-height:1.75
+}
+.subscribe .input-xxlarge {
+ height:50px;
+ -webkit-border-radius:0;
+ -moz-border-radius:0;
+ border-radius:0;
+ font-size:24px;
+ font-weight:400;
+ line-height:50px;
+ padding:4px 10px;
+ margin:15px 0;
+ margin-right:15px
+}
+.subscribe .btn-warning {
+ color:#963;
+ font-size:24px;
+ font-weight:600;
+ text-shadow:0 1px 0 rgba(255,255,255,.5);
+ background-color:#febd4d;
+ *background-color:#febd4d;
+ background-image:-moz-linear-gradient(top,#feda71,#feba48);
+ background-image:-webkit-gradient(linear,0 0,0 100%,from(#feda71),to(#feba48));
+ background-image:-webkit-linear-gradient(top,#feda71,#feba48);
+ background-image:-o-linear-gradient(top,#feda71,#feba48);
+ background-image:linear-gradient(to bottom,#feda71,#feba48);
+ background-repeat:repeat-x;
+ border-color:#f89406 #f89406 #ad6704;
+ border-color:rgba(0,0,0,.1) rgba(0,0,0,.1) rgba(0,0,0,.25);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffeda71',endColorstr='#fffeba48',GradientType=0);
+ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+ -webkit-border-radius:0;
+ -moz-border-radius:0;
+ border-radius:0
+}
+.subscribe button.btn.btn-large {
+ padding:19px 40px
+}
+.footer {
+ text-align:center;
+ padding-bottom:50px;
+ padding-top:20px
+}
+.footer.footertext {
+ color:#919191;
+ font-size:12px;
+ font-weight:300
+}
+.socialicons a.icons {
+ width:32px;
+ height:32px;
+ display:inline-block;
+ margin-right:15px;
+ background:url(../images/social-icons.png) no-repeat;
+ -webkit-transition:all .2s ease;
+ -moz-transition:all .2s ease;
+ -o-transition:all .2s ease;
+ transition:all .2s ease
+}
+.socialicons a.icons.facebook {
+ background-position:0 0
+}
+.socialicons a.icons.facebook:hover {
+ background-position:0 -33px
+}
+.socialicons a.icons.twitter {
+ background-position:-33px 0
+}
+.socialicons a.icons.twitter:hover {
+ background-position:-33px -33px
+}
+.socialicons a.icons.linkedin {
+ background-position:-66px 0
+}
+.socialicons a.icons.linkedin:hover {
+ background-position:-66px -33px
+}
+.socialicons a.icons.googleplus {
+ background-position:-99px 0
+}
+.socialicons a.icons.googleplus:hover {
+ background-position:-99px -33px
+}
+.Wrapcountdown {
+ margin-top:50px
+}
+.Wrapcountdown p {
+ font-size:22px
+}
+ul#countdown,
+ul#countdown li {
+ list-style:none
+}
+ul#countdown li {
+ display:inline-block;
+ width:104px;
+ margin-top:1em;
+ text-align:center
+}
+ul#countdown li span {
+ font-size:3em;
+ font-weight:700;
+ color:#fff;
+ height:108px;
+ line-height:1;
+ position:relative
+}
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+ margin-top:1em;
+ color:#fff;
+ text-transform:uppercase;
+ font-size:.875em
+}
+.jumbotron .subscribe {
+ padding-top:35px
+}
+.masthead #ticker,
+.masthead .query {
+ font:120% Georgia,times new roman,Times,serif;
+ color:#fff;
+ text-align:center
+}
+.masthead #ticker p {
+ font-size:120%
+}
+.Features p {
+ font-size:20px;
+ font-weight:300;
+ color:#616161;
+ line-height:1.5
+}
+.Features {
+ margin-top:40px
+}
+.Features div div {
+ margin-bottom:40px
+}
+.Features h2 {
+ font-size:38px;
+ font-weight:600;
+ color:#0e0d0d;
+ line-height:1;
+ letter-spacing:-2px;
+ text-align:center;
+ margin-bottom:40px
+}
+.ModelLink {
+ display:block
+}
+@media(max-width:767px) {
+ .jumbotron {
+  padding:20px;
+  margin-top:-20px;
+  margin-right:-20px;
+  margin-left:-20px
+ }
+}
+@media(min-width:768px) and (max-width:990px) {
+ .Features p {
+  font-size:18px
+ }
+}
+@media(max-width:480px) {
+ .mockup,
+ .mockup.video {
+  background-size:100%
+ }
+ .masthead p {
+  font-size:30px
+ }
+ .Features p {
+  font-size:15px
+ }
+}
+
+/*
+     FILE ARCHIVED ON 09:36:01 Oct 12, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:50:30 Oct 22, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 501.638
+  LoadShardBlock: 1226.694 (3)
+  esindex: 0.011
+  PetaboxLoader3.resolve: 677.147 (2)
+  RedisCDXSource: 204.209
+  CDXLines.iter: 25.202 (3)
+  exclusion.robots: 0.299
+  captures_list: 1461.579
+  PetaboxLoader3.datanode: 759.212 (4)
+  exclusion.robots.policy: 0.276
+*/
